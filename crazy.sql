@@ -20,10 +20,22 @@
 --from employee
 
 --select *
---from employee as e inner join department as d on department_id = d.id
+--from employee as e inner join department as d on department_id = d.id 
+--where department_id = 4
+
+--select *
+--from employee as e inner join department as d on department_id = d.id 
+--where isProfit = 'Да'
+
+--select *
+--from employee as e inner join department as d on department_id = d.id 
+--where salary >= 10000 and salary <= 100000;
 
 --select SUM(salary) as sum_salary, avg(salary)
 --from employee;
+
+--select *
+--from employee as e inner join department as d on department_id = d.id
 
 --drop table department
 --drop table employee
