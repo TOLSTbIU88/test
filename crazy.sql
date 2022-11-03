@@ -35,6 +35,10 @@
 --from employee;
 
 --select *
+--from employee
+--where lower(full_name) like '%иван%';
+
+--select *
 --from employee as e inner join department as d on department_id = d.id
 
 --drop table department
