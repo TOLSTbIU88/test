@@ -31,6 +31,13 @@
 --from employee as e inner join department as d on department_id = d.id 
 --where salary >= 10000 and salary <= 100000;
 
+--delete from employee
+--where id=3;
+
+--update department
+--set name = 'Депозитный отдел', isProfit = 'Нет' 
+--where id =2
+
 --select SUM(salary) as sum_salary, avg(salary)
 --from employee;
 
@@ -38,8 +45,9 @@
 --from employee
 --where lower(full_name) like '%иван%';
 
---select *
---from employee as e inner join department as d on department_id = d.id
+--select d.name, avg(salary)
+--from employee as e inner join department as d on e.department_id = d.id
+--group by d.name
 
---drop table department
 --drop table employee
+--drop table department
